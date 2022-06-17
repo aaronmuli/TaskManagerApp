@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "TaskManager",
+    "slug": "TaskManager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/original_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/original_splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#3771c8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/original_icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
